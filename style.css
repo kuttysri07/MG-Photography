@@ -433,159 +433,44 @@ nav{
 
 
 /* service */
+#service{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-
-.servicecontainer{
+.cardbox{
+  width: 80%;
+  gap: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
-  width: 80%;
+  justify-content: center;
+}
+
+.card{
   background-color: #000;
-  gap: 20px;
-  padding: 50px;
-  margin-bottom: 100px;
-}
-
-.left2{
-  flex-basis: 40%;
-}
-
-.right2{
-  flex-basis: 40%;
-}
-
-.servicecontent{
-  display: flex;
-}
-
-.servicecontent img{
-  object-fit: contain;
-  width: 40px;
-}
-
-.servicecontent h3{
-  font-size: 1rem;
-  font-weight: 100;
-  text-align: start;
-  padding: 15px;
-}
-
-.left2 h1{
-  text-align: start;
-  padding:  10px 0px;
-}
-
-.left2 h2{
-  text-align: justify;
-  padding:  10px 0px;
-  font-weight: 300;
+  padding: 20px;
+  height: 300px;
+  width: 300px;
+  border-radius: 20px
 }
 
 
-@media (max-width:1400px) {
-  .servicecontainer{
-   width: 90%;
-   padding: 30px;
-  }
-
-  .left2{
-    width: 100%;
-    flex-basis: 60%;
-  }
-
-  .servicecontent{
-    width: 800px;
-    justify-content: center;
-    
-  }
-
-  .servicecontent img{
-    padding: 5px;
-    width: 60px;
-    text-align: center;
-  }
-
-  .right2 img{
-    width: 800px;
-  }
+.card h1,.card img {
+  margin-bottom: 20px;
 }
 
-
-
-
-@media (max-width:1200px) {
-  .servicecontainer{
-   width: 90%;
-   padding: 10px;
-  }
-
-  .left2{
-    width: 100%;
-    flex-basis: 60%;
-  }
-
-  .servicecontent{
-    
-    width: 600px;
-    justify-content: center;
-    
-  }
-
-  .servicecontent img{
-    padding: 5px;
-    width: 60px;
-    text-align: center;
-  }
-
-  .right2 img{
-    width: 600px;
-  }
-}
-   
-      
-@media (max-width:768px) {
-  .servicecontainer{
-   width: 90%;
-   padding: 10px;
-  }
-
-  .left2{
-    width: 100%;
-    flex-basis: 60%;
-  }
-
-  .servicecontent{
-    width: 600px;
-    justify-content: center;
-    
-  }
-
-  .servicecontent img{
-    padding: 5px;
-    width: 60px;
-    text-align: center;
-  }
-
-  .right2 img{
-    width: 600px;
-  }
-}
 @media (max-width:480px) {
-  .servicecontainer{
-   width: 90%;
-  }
-
-  .servicecontent{
-    flex-wrap: wrap;
-    width: 250px;
-  }
-
-  .right2 img{
-    width: 300px;
+  .card{
+    width:initial;
   }
 }
 
+   
+
+
+      
 
 .contactcontainer{
   display: flex;
