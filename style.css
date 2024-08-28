@@ -571,28 +571,14 @@ nav{
     width: 600px;
   }
 }
-
 @media (max-width:480px) {
   .servicecontainer{
    width: 90%;
-   padding: 10px;
-  }
-
-  .left2{
-    width: 100%;
   }
 
   .servicecontent{
     flex-wrap: wrap;
-    width: 300px;
-    justify-content: center;
-    
-  }
-
-  .servicecontent img{
-    padding: 5px;
-    width: 60px;
-    text-align: center;
+    width: 250px;
   }
 
   .right2 img{
